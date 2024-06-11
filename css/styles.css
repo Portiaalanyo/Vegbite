@@ -1,0 +1,281 @@
+body{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #logo{
+    width: 40px;
+  }
+  nav{
+   display: flex; 
+   justify-content: space-between;
+   padding: 10px 50px ;
+   align-items: center;
+   position:fixed;
+   width: 90vw;
+   z-index: 100;
+   color: white;
+  }
+  #nav-links{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 15px;
+    column-gap: 20px;
+   }
+  #hero{
+    background-image: url(../assets/image/pasta_files/pizza-346985_640.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  } 
+  #hero-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+ }
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#subtext-one{
+    font-size: 60px;
+}
+#chopping{
+    font-size: 90px;
+}
+.menu-button{
+background-color: white;
+color: red;
+border: none;
+padding: 5px 10px;
+text-transform: uppercase;
+font-size: 12px;
+border-radius: 5px;
+}
+
+.menu-button:hover {
+  background-color: red;
+  color: white;
+}
+#nav-links span:hover{
+  color: red;
+}
+#about{
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+#about-text {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-image{
+  width: 390px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  overflow: clip;
+  height: 390px;
+}
+#parag-in{
+text-align: center;
+}
+#about-link{
+  text-align: center;
+}
+.sub-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 85;
+}
+.sub-header{
+  color: red;
+  font-size: 30px;
+}
+.subtext{
+color: black;
+text-transform: uppercase;
+}
+.sub-header{
+  font-size: 50px;
+  font-weight: 700px;
+  text-align: center;
+}
+#discover{
+  background-image: url(../assets/image/pasta_files/dining.jpg);
+  height: 60vh;
+  width:100vw ;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discover-content span:nth-child(1){
+   color: red;
+  font-size: 25px;
+}
+.discover-content span:nth-child(2) {
+  color: white;
+  font-size: 50px;
+  margin: 5px 0px 30px;
+  letter-spacing: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  line-height: 60px;
+}
+#Menu{
+  background-color: #F5F2EC;
+  width: 100vw;
+  /* height: 60vh; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 80vw;
+}
+
+.grid-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.group1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 520px;
+  position: relative;
+  display: inline-block;
+}
+.btn{
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  z-index: 1;
+}
+.group2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 250px;
+}
+
+.group3{
+  height: 250px;
+}
+
+#video-sec{
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  margin-bottom: 100px 0;
+}
+
+#video{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+#video-overlay{
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0);
+width: inherit;
+height: inherit;
+padding-top: 100px;
+}
+
+#video-overlay .sub-header span:last-child{
+color: white;
+}
+
+#video-overlay.sub-header span:first-child{
+  font-size: 10px;
+}
+
+#reservation{
+  background-color:#EFEFEF;
+  pad: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#reservation img{
+  width: 40%;
+  border-radius: 20px;
+}
+
+#input-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+}
+
+.form-item{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#input-grid input{
+width: 300px;
+height: 40px;
+border-radius: 10px;
+border-color: #d9d9d9;
+}
+.form-item{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#book-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#book-metoo{
+  padding: 10px 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  margin-top: 15px;
+}

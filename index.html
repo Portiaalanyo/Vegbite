@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegbite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+       <img id="logo" src="/assets/image/logo/vegbite-high-resolution-logo-transparent.png" alt="vegbitelogo">
+
+       <div id="nav-links"  >
+        <span>HOME</span>
+        <span>MENU</span>
+        <span>RESERVATION</span>
+        <span>GALLERY</span>
+        <span>ABOUT</span>
+        <span>BLOG</span>
+        <span>CONTACT</span>
+       </div>
+    </nav>
+    <section id="hero">
+        <div id="hero-overlay">
+            <header>
+              <span id="subtext-one"class="courgette-regular">Welcome to </span>
+              <span id="chopping" class="poppins-bold">Vegbite</span>
+            </header>
+            <button class="menu-button">Look Menu</button>
+        </div>
+    </section>
+    <section id="about">
+        <div id="about-text">
+        <div class="sub-header">
+            <div id="sub-headeredit">
+            </div>
+            <span class="courgette-regular">Vegetarian Resturant</span>
+            <span class="poppins-bold subtext">Welcome</span>
+        </div> 
+        <p id="parag-in">
+            Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed <br> fringilla,
+             nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis <br>ligula sem id neque. 
+        </p>
+        <div id="about-link">
+            <a href="#" class="our story"></a>
+            <span>Our story</span>
+            <span>icon here</span>
+        </div>
+        </div>
+        <img id="about-image" src="/assets/image/pasta_files/toast.jpg" alt="About image">
+    </section>
+
+    <section id="Discover">
+        <div class="discover-content">
+            <header>
+                <span class="courgette-regular">Discover</span>
+                <span class="poppins-bold subtext">Vegbite</span>
+            </header>
+        </div>
+    </section>
+    <section id="Menu">
+        <div class="sub-header">
+            <div id="sub-headeredit">
+            </div>
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold subtext">Our Menu</span>
+        </div>  
+        <div class="grid-container">
+            <div class="group1">
+                <img class="group1"src="./assets/image/pasta_files/lunch veg.jpeg" alt="lunch">
+                <button class="btn">Look Menu</button>
+            </div>
+            <div class="group1">
+                <img src="./assets/image/pasta_files/pizza-346985_640.jpg" alt="dinner">
+            </div>
+            <div class="group3">
+                <img src="./assets/image/pasta_files/sandwich-7895477_640.jpg" alt="drinks">
+            </div>
+            <div class="group3">
+                <img src="./assets/image/pasta_files/sandwich-7895477_640.jpg" alt="starter">
+            </div>
+            <div class="group2">
+                <img src="./assets/image/pasta_files/pasta-1854245_640.jpg" alt="happy hours">
+            </div>
+           <div class="group3">
+            <img src="./assets/image/pasta_files/vegan-salad-6707015_640.jpg" alt="dissert">
+           </div>
+        </div>
+    </section>
+
+    <section id="video-sec">
+        <video id="video" autoplay loop>
+            <source src="./assets/image/pasta_files/vid.mp4" type="video/mp4">
+        </video>
+        <div id="video-overlay">
+            <div class="sub-header">
+                <span class="courgette-regular">Discover</span>
+                <span class="poppins-bold subtext">Our videos</span>
+            </div>   
+        </div>
+    </section>
+
+    <section id="reservation">
+        <div id="section1">
+            <div id="sub-header">
+                <span class="courgette-regular">Reservation</span>
+                <span class="poppins-bold subtext">BOOK TABLES</span>
+            </div>
+            <form>
+                <div id="input-grid">
+                    <span class="form-item">
+                        <label for="date">Date</label>
+                        <input type="date" name="" id="date">
+                    </span>
+                    <span class="form-item">
+                        <label for="name">Name</label>
+                        <input type="name" id="name"/>
+                    </span>
+                    <span class="form-item">
+                        <label for="time">Time</label>
+                        <!-- <input type="time" id="time"/> -->
+                        <select name="time" id="">
+                            <option value="9:00">9:00</option>
+                            <option value="9:00">9:30</option>
+                            <option value="9:00">10:00</option>
+                            <option value="9:00">10:30</option>
+                            <option value="9:00">11:00</option>
+                        </select>
+                    </span>
+                    <span class="form-item">
+                        <label for="phone">Phone</label>
+                        <input type="phone" id="number"/>
+                    </span>
+                    <span class="form-item">
+                        <label for="people">People</label>
+                        <!-- <input type="people" id="people"/> -->
+                        <select name="person" id="">
+                            <option value="1 person">1 Person</option>
+                            <option value="1 person">2 People</option>
+                            <option value="1 person">3 People</option>
+                            <option value="1 person">4 People</option>
+                            <option value="1 person">5 People</option>
+                            <option value="1 person">6 People</option>
+                        </select>
+                    </span>
+                    <span class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email"/>
+                    </span>
+                </div>
+               <div id="book-me">
+                <button id="book-metoo">Book Table</button>
+               </div>
+            </form>
+        </div>
+        <img src="./assets/image/pasta_files/cereal-8789186_640.png" alt="reservation image">
+    </section>
+
+    <section>Review</section>
+    <section>footer</section>
+</body>
+</html>
